@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class demo {
     @RequestMapping("login")
     public String hi(){
+        //测试
         return  "哈哈";
     }
 }
